@@ -7,10 +7,7 @@ jobs:
 		steps:
 			- uses: actions/checkout@v3
 			- run: gcc client.c -o client
-			- run: gcc client.c -o cl
 			- run: gcc server.c -o server
 			- run: ./server
 			- run: ./client
-			- run: ./cl
 			# - run:bats -v
-
