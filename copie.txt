@@ -1,0 +1,9 @@
+
+Cette phase assure un cadrage du projet, en précisant ce qui en fait partie et ce qui en est exclu.
+L’objet du cahier des charges est de définir les points suivants :
+- Présentation générale du projet (contexte, objet, périmètre, démarche, planning organisation).
+- Prestations attendues (fournitures de progiciels et/ou de matériels, maîtrise d’œuvre du projet, définition des livrables).
+- Spécifications fonctionnelles (définition macroscopique du futur système d’information, présentation des acteurs internes et externes, définition des grands concepts, des règles de gestion, des fonctions attendues).
+- Spécifications techniques (volumétrie, contraintes d’architectures techniques, droits d’accès et confidentialité).
+es différents sites, compte tenu des moyens techniques utilisés.
+
