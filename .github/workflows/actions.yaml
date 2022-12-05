@@ -6,14 +6,8 @@ jobs:
 		runs-on: ubuntu-latest
 		steps:
 			- uses: actions/checkout@v3
-<<<<<<< HEAD
 			- run: gcc client.c -o client
+			- run: gcc client.c -o cl
 			- run: gcc server.c -o server
-			- run: ./server
-			- run: ./client
-=======
-			- run: gcc ./client.c -o client
-			- run: gcc ./client.c -o cl
-			- run: gcc ./server.c -o server
->>>>>>> 58f091f (Modification du git-actions)
 			# - run:bats -v
+ 
