@@ -1,0 +1,13 @@
+name: client_server
+rum-name: ${{ github.actor }} exo OS 
+on: [push]
+jobs:
+	check-bats-version:
+		runs-on: ubuntu-latest
+		steps:
+			- uses: actions/checkout@v3
+			- run: gcc client.c -o client
+			- run: gcc client.c -o cl
+			- run: gcc server.c -o server
+			# - run:bats -v
+
